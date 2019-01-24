@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingRight="8dp"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="ویرایش"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="حذف"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textPlaque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fasel_az_dotaraf"
+            android:layout_marginBottom="1dp"
+            android:gravity="right"
+            android:text="پلاک"
+            android:layout_marginRight="@dimen/fasel_az_dotaraf"
+            android:textColor="#333333"
+            android:textSize="18dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

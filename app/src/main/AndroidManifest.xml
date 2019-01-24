@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.finish.payanterm">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aslijava.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aslijava.layout_admin" />
+        <activity android:name=".aslijava.layout_seller" />
+        <activity android:name=".aslijava.bus" />
+        <activity android:name=".aslijava.driver" />
+        <activity android:name=".aslijava.passenger" />
+        <activity android:name=".aslijava.the_user" />
+        <activity android:name=".aslijava.ticket" />
+        <activity android:name=".aslijava.trip" />
+        <activity android:name=".aslijava.add_bus" />
+        <activity android:name=".aslijava.add_edit_driver" />
+        <activity android:name=".aslijava.edit_admin" />
+        <activity android:name=".aslijava.new_safar" />
+        <activity android:name=".aslijava.add_safar" />
+        <activity android:name=".aslijava.add_mosafer" />
+        <activity android:name=".aslijava.newblit" />
+        <activity android:name=".aslijava.cancellllblit" />
+        <activity android:name=".aslijava.searchhsafar" />
+        <activity android:name=".aslijava.searchhhmosafer" />
+        <activity android:name=".aslijava.search_driver" />
+        <activity android:name=".aslijava.edit_seller" />
+        <activity android:name=".aslijava.add_ranande" />
+        <activity android:name=".aslijava.sellernew" />
+        <activity android:name=".btnedittet" />
+        <activity android:name=".aslijava.edddddit"></activity>
+    </application>
+
+</manifest>

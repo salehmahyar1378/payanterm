@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">payanterm</string>
+    <dimen name="fasel_az_dotaraf">40dp</dimen>
+
+</resources>
